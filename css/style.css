@@ -1,0 +1,224 @@
+html{
+	font-size: 10px;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.full-width{
+	width: 100%;
+}
+.container{
+	width: 1648px;
+	clear: both;
+	margin: 0 auto;
+}
+.half{
+	width: 50%;
+	float: left;
+}
+.header{
+	position: relative;
+	background: url(../images/top-bg.png) center top transparent;
+	padding-top: 10px;
+	min-height: 990px;
+}
+.header #logo{
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top:0;
+}
+.mainNav{
+	background: url(../images/nav-bg.png) repeat-x;
+	height: 83px;
+	text-align: right;
+}
+
+.mainNav ul{
+	height: 48px;
+	padding-top: 35px;
+	max-width: 1790px;
+}
+.mainNav ul li{
+	display: inline-block;
+	margin-left: 55px;
+}
+.mainNav ul li a{
+	font-size: 2.8rem;
+	color:#FFF;
+	text-decoration: none;
+	font-weight: 300;
+}
+.main-display{
+	text-align: center;
+	font-size: 3.4rem;
+	font-weight: 300;
+	color:#fff;
+	margin-top: 142px;
+}
+.main-display h2{
+	font-size: 8.6rem;
+	margin-bottom: 33px;
+	font-weight: 400;
+}
+.main-display p {
+    margin-bottom: 10px;
+}
+.main-display #hire-us{
+	background: url(../images/hire-us.png) no-repeat;
+	display: block;
+	width: 458px;
+	height: 218px;
+	text-indent: -999em;
+	margin: 0 auto;
+}
+.main-display .social{
+	width: 393px;
+	margin: -5px auto 0;
+}
+.main-display .social a{
+	background-image: url(../images/social.png);
+	width: 47px;
+	height: 47px;
+	display: block;
+	float: left;
+}
+.main-display .social a.twitter{
+}
+.main-display .social a.facebook{
+	background-position: -173px 0;
+	margin: 0 126px;
+}
+.main-display .social a.linkedin{
+	background-position: -348px 0;
+}
+
+.skills{
+margin-top: 40px;
+font-size: 3.4rem;
+line-height: 5.5rem;
+}
+
+.skills .front-end-skills{
+}
+.skills .front-end-skills .skills-image{
+	background: transparent url(../images/fe-skills.png) 0 84px no-repeat;
+	height: 470px;
+}
+
+.skills .front-end-skills h3{
+	font-size: 4rem;
+	color:#3a3a3a;
+	text-align: center;
+}
+.skills .front-end-skills{
+}
+.skills .design-tools .text{
+	width: 907px;
+	float: left;
+}
+.skills .design-tools .tools-image{
+	height: 411px;
+	background: url(../images/tools.png) 166px 88px no-repeat;
+	width: 740px;
+}
+
+.skills .design-tools h3{
+	font-size: 4rem;
+	color:#3a3a3a;
+	text-align: center;
+}
+
+.latest-works{
+	background: url(../images/works.png) no-repeat center top transparent;
+	clear: both;
+	height: 1120px;
+	margin-top: -24px;
+	display: block;
+}
+.latest-works h3{
+	font-size: 7.2rem;
+	padding-top: 80px;
+	color: #FFF;
+	text-align: center;
+	font-weight: 300;
+	}
+.info{
+	text-align: center;
+	background: url(../images/bg-black.png) no-repeat;
+    height: 787px;
+    margin-top: -148px;
+    padding-top:333px;
+}
+.info .text{
+	background: transparent url(../images/info-text.png) center center no-repeat;
+	width: 100%;
+	display: inline-block;
+	height: 55px;
+    margin-bottom: 107px;
+    text-indent: -9999px;
+}
+.info .name{
+	font-size: 3.8rem;
+	font-weight: 300;
+	color: #FFF;
+	margin-top: 44px;
+}
+.footer{
+	background: transparent url(../images/footer-bg.png) top center no-repeat;
+	height: 405px;
+	margin-top: -115px;
+	padding-top: 115px;
+	text-align: center;
+	color: #FFF;
+}
+.footer h3{
+	font-size: 6.3rem;
+	margin-bottom: 28px;
+}
+.footer p{
+	font-size: 3.8rem;
+	color: #aaa;
+	margin-bottom: 30px;
+}
+.footer .contacts a{
+	display: inline-block;
+	height: 22px;
+	font-size: 2.2rem;
+	color: #aaa;
+	text-decoration: none;
+	padding-top: 108px;
+	width: 224px;
+}
+.footer .contacts a.mail{
+    background: transparent url(../images/email.png) center center no-repeat;
+}
+.footer .contacts a.phone{
+    background:transparent url(../images/phone.png) center center no-repeat;
+}
+.footer .contacts a.address{
+    background:transparent url(../images/address.png) center center no-repeat;
+}
+
+
+
+@media screen 
+  and (max-device-width: 1600px) { 
+  	.skills{
+  		font-size: 2.8rem;
+  	}
+  	.skills .container{
+		width: 100%;
+  	}
+  	.skills .front-end-skills p:first-child{
+		margin-top: 92px;
+  	}
+  	.skills .design-tools .text{
+  		width: 50%;
+  	}
+  	.skills .design-tools .tools-image{
+  		width: 50%;
+  		background-position: 77px 97px;
+  	}
+}
